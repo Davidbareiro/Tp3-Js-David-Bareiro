@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+body {
+  font-family: Arial;
+  background-color: #3498db;
+  padding: 50px;
+}
+.login {
+  /* margin: 20px auto;
+  width: 500px; */
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 5px solid #FFFF00; */
+    padding: 10px;
+}
+.login-screen {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.titulo-app {
+  text-align: center;
+  color: #777;
+}
+
+.login-form {
+  text-align: center;
+}
+.control-group {
+  margin-bottom: 10px;
+}
+
+input {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border 0.5s;
+}
+
+input:focus {
+  border: 2px solid #3498db;
+  box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #2da44e;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+
+.form-check
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-check-input {
+    width: 70px;
+}
+
+.titulo
+{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 716px) {
+  .titulo
+{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+}
